@@ -124,7 +124,7 @@ set(ZLIB_SRCS
 
 if(NOT MINGW)
     set(ZLIB_DLL_SRCS
-        win32/zlib1.rc # If present will override custom build rule below.
+        #win32/zlib1.rc # If present will override custom build rule below.
     )
 endif()
 
